@@ -1,0 +1,20 @@
+{
+    "name": "cyneek/yii2-menu",
+    "description": "DataBase loader with menu items for Kartik Menu Widget.",
+    "keywords": ["yii2", "menu", "widget"],
+    "type": "yii2-extension",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Joseba Juániz",
+            "email": "joseba.juaniz@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "kartik-v/yii2-widget-sidenav": "*"
+    },
+    "autoload": {
+        "psr-4": { "cyneek\\yii2\\menu\\": "" }
+    }
+}
