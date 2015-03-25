@@ -55,9 +55,9 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 * Launch the migration
 
-        ```
+
          php yii migrate --migrationPath=@vendor/cyneek/yii2-menu/migrations
-        ```
+
 
 * Profit!
 
@@ -114,4 +114,4 @@ Warning: This will hide the menu item and all its children.
     echo \cyneek\yii2\menu\Menu::widget($options);
 ```
 
-Options is an array as defined in the [Kartik Sidenav Widget Options](http://demos.krajee.com/widget-details/sidenav).
+Options is an array as defined in the [Kartik Sidenav Widget Options](http://demos.krajee.com/widget-details/sidenav#sidenav-options).
