@@ -116,4 +116,3 @@ Warning: This will hide the menu item and all its children.
 ```
 
 Options is an array as defined in the [Kartik Sidenav Widget Options](http://demos.krajee.com/widget-details/sidenav#sidenav-options).
-aaa
