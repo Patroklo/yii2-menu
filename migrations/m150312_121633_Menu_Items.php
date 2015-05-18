@@ -4,7 +4,7 @@ use yii\db\Migration;
 use yii\db\Schema;
 use cyneek\yii2\menu\models\MenuItem;
 
-class m150312_121633_adminMenu extends Migration
+class m150312_121633_Menu_Items extends Migration
 {
 
 	private function tableName()
