@@ -61,14 +61,15 @@ class MenuItems extends Model
      * Adds a menu item
      *
      * @param $name
-     * @param $parent
      * @param null $url
+     * @param null $parent
      * @param null $label
      * @param null $icon
-     * @param null $visible
      * @param null $options
+     * @param int $visible
+     * @throws \Exception
      */
-    public function add_menu_item($label, $url = NULL, $parent = NULL, $name = NULL, $icon = NULL, $options = NULL, $visible = 1)
+    public function add_menu_item($name, $url = NULL, $parent = NULL, $label = NULL, $icon = NULL, $options = NULL, $visible = 1)
     {
 
         $parent_id = NULL;
@@ -81,8 +82,8 @@ class MenuItems extends Model
             }
         }
 
-        if (is_null($name)) {
-            $name = $label;
+        if (is_null($label)) {
+            $label = $name;
         }
 
         $newMenuItem = new MenuItem();
