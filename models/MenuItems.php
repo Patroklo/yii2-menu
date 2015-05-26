@@ -68,6 +68,8 @@ class MenuItems extends Model
      * @param null $options
      * @param int $visible
      * @throws \Exception
+	 *
+	 * @return MenuItem
      */
     public function add_menu_item($name, $url = NULL, $parent = NULL, $label = NULL, $icon = NULL, $options = NULL, $visible = 1)
     {
@@ -97,6 +99,8 @@ class MenuItems extends Model
 
 
         $newMenuItem->insert(false);
+
+        return $newMenuItem;
     }
 
     /**
