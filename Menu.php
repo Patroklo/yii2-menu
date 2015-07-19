@@ -4,8 +4,7 @@ namespace cyneek\yii2\menu;
 use cyneek\yii2\menu\models\MenuItems;
 use Yii;
 use yii\base\Widget;
-use kartik\widgets\SideNav;
-
+use kartik\sidenav\SideNav;
 
 /**
  * Menu Widget
